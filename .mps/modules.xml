@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/AGLang/AGLang.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/F2P/F2P.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Families/Families.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/ModelCorrispondenceDefinitionLang/ModelCorrispondenceDefinitionLang.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Persons/Persons.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/DesignSpacePlugin/DesignSpacePlugin.msd" folder="" />
+    </projectModules>
+  </component>
+</project>

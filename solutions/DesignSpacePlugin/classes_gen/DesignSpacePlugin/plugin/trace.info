@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/6329021646629104954:jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root nodeRef="r:dbdac8d9-02b3-4c6d-9397-f4ae85af91fb(DesignSpacePlugin.plugin)/7115659568980678525">
+    <file name="DesignSpacePlugin_ApplicationPlugin.java">
+      <node id="7115659568980678525" at="10,0,11,0" concept="3" trace="myId" />
+      <node id="7115659568980678525" at="13,27,14,16" concept="8" />
+      <node id="7115659568980678525" at="16,30,17,30" concept="9" />
+      <node id="7115659568980678525" at="18,38,19,14" concept="9" />
+      <node id="7115659568980678525" at="11,0,13,0" concept="1" trace="DesignSpacePlugin_ApplicationPlugin#()V" />
+      <node id="7115659568980678525" at="13,0,16,0" concept="6" trace="getId#()Lcom/intellij/openapi/extensions/PluginId;" />
+      <node id="7115659568980678525" at="22,0,25,0" concept="6" trace="adjustRegularGroups#()V" />
+      <node id="7115659568980678525" at="16,0,22,0" concept="6" trace="createGroups#()V" />
+      <scope id="7115659568980678525" at="11,48,11,48" />
+      <scope id="7115659568980678525" at="13,27,14,16" />
+      <scope id="7115659568980678525" at="22,37,23,94" />
+      <scope id="7115659568980678525" at="11,0,13,0" />
+      <scope id="7115659568980678525" at="13,0,16,0" />
+      <scope id="7115659568980678525" at="22,0,25,0" />
+      <scope id="7115659568980678525" at="16,30,20,55" />
+      <scope id="7115659568980678525" at="16,0,22,0" />
+      <unit id="7115659568980678525" at="9,0,26,0" name="DesignSpacePlugin.plugin.DesignSpacePlugin_ApplicationPlugin" />
+    </file>
+  </root>
+  <root nodeRef="r:dbdac8d9-02b3-4c6d-9397-f4ae85af91fb(DesignSpacePlugin.plugin)/7115659568980678526">
+    <file name="DesignSpacePluginGroup_ActionGroup.java">
+      <node id="7115659568980678526" at="8,0,9,0" concept="11" trace="ID" />
+      <node id="7115659568980678526" at="9,47,10,40" concept="12" />
+      <node id="7115659568980678526" at="10,40,11,30" concept="2" />
+      <node id="7115659568980678526" at="11,30,12,25" concept="2" />
+      <node id="7115659568980802774" at="12,25,13,99" concept="2" />
+      <node id="7115659568980678526" at="9,0,15,0" concept="1" trace="DesignSpacePluginGroup_ActionGroup#()V" />
+      <scope id="7115659568980678526" at="9,47,13,99" />
+      <scope id="7115659568980678526" at="9,0,15,0" />
+      <unit id="7115659568980678526" at="7,0,16,0" name="DesignSpacePlugin.plugin.DesignSpacePluginGroup_ActionGroup" />
+    </file>
+    <file name="DesignSpacePlugin_ApplicationPlugin.java">
+      <node id="7115659568980678526" at="19,14,20,55" concept="2" />
+      <node id="7115659568980809613" at="22,37,23,94" concept="2" />
+    </file>
+  </root>
+  <root nodeRef="r:dbdac8d9-02b3-4c6d-9397-f4ae85af91fb(DesignSpacePlugin.plugin)/7115659568980678531">
+    <file name="DesignSpacePlugin_ApplicationPlugin.java">
+      <node id="7115659568980678531" at="17,30,18,38" concept="2" />
+    </file>
+    <file name="DoPushout_Action.java">
+      <node id="7115659568980678531" at="18,0,19,0" concept="11" trace="ICON" />
+      <node id="7115659568980678531" at="20,29,21,33" concept="12" />
+      <node id="7115659568980678531" at="21,33,22,34" concept="2" />
+      <node id="7115659568980678531" at="22,34,23,41" concept="2" />
+      <node id="7115659568980678531" at="26,32,27,16" concept="8" />
+      <node id="7115659568980678531" at="31,53,32,19" concept="8" />
+      <node id="7115659568980717608" at="34,5,35,58" concept="7" />
+      <node id="7115659568980717609" at="36,22,37,21" concept="8" />
+      <node id="7115659568980827660" at="40,5,41,66" concept="7" />
+      <node id="7115659568980827661" at="42,22,43,21" concept="8" />
+      <node id="7115659568980678531" at="45,5,46,16" concept="8" />
+      <node id="7115659568980783722" at="49,96,50,110" concept="2" />
+      <node id="7115659568980766179" at="52,86,53,19" concept="7" />
+      <node id="7115659568980917307" at="54,102,55,122" concept="7" />
+      <node id="7115659568980940588" at="56,131,57,0" concept="10" />
+      <node id="7115659568980901035" at="57,0,58,72" concept="2" />
+      <node id="7115659568980768250" at="58,72,59,17" concept="2" />
+      <node id="7115659568980813591" at="60,7,61,88" concept="2" />
+      <node id="7115659568980773268" at="62,5,63,23" concept="8" />
+      <node id="7115659568980678531" at="30,95,33,5" concept="5" />
+      <node id="7115659568980717609" at="35,58,38,7" concept="5" />
+      <node id="7115659568980827661" at="41,66,44,7" concept="5" />
+      <node id="7115659568980678531" at="25,0,29,0" concept="6" trace="isDumbAware#()Z" />
+      <node id="7115659568980678531" at="48,0,52,0" concept="6" trace="doExecute#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)V" />
+      <node id="7115659568980678531" at="20,0,25,0" concept="1" trace="DoPushout_Action#()V" />
+      <node id="7115659568980821734" at="55,122,60,7" concept="5" />
+      <node id="7115659568980717608" at="33,5,39,5" concept="0" />
+      <node id="7115659568980827660" at="39,5,45,5" concept="0" />
+      <node id="7115659568980767886" at="53,19,62,5" concept="4" />
+      <node id="7115659568980724527" at="52,0,65,0" concept="6" trace="checkIfModuleHasTwoMatchingDependencies#(Lcom/intellij/openapi/actionSystem/AnActionEvent;)Z" />
+      <node id="7115659568980678531" at="29,0,48,0" concept="6" trace="collectActionData#(Lcom/intellij/openapi/actionSystem/AnActionEvent;Ljava/util/Map;)Z" />
+      <scope id="7115659568980678531" at="26,32,27,16" />
+      <scope id="7115659568980678531" at="31,53,32,19" />
+      <scope id="7115659568980717609" at="36,22,37,21" />
+      <scope id="7115659568980827661" at="42,22,43,21" />
+      <scope id="7115659568980678531" at="49,96,50,110" />
+      <scope id="7115659568980678531" at="20,29,23,41" />
+      <scope id="7115659568980821736" at="56,131,59,17" />
+      <scope id="7115659568980678531" at="25,0,29,0" />
+      <scope id="7115659568980717608" at="34,5,38,7">
+        <var name="p" id="7115659568980717608" />
+      </scope>
+      <scope id="7115659568980827660" at="40,5,44,7">
+        <var name="p" id="7115659568980827660" />
+      </scope>
+      <scope id="7115659568980678531" at="48,0,52,0">
+        <var name="_params" id="7115659568980678531" />
+        <var name="event" id="7115659568980678531" />
+      </scope>
+      <scope id="7115659568980678531" at="20,0,25,0" />
+      <scope id="7115659568980767889" at="54,102,61,88">
+        <var name="module" id="7115659568980917308" />
+      </scope>
+      <scope id="7115659568980767886" at="53,19,62,5">
+        <var name="dependency" id="7115659568980767890" />
+      </scope>
+      <scope id="7115659568980724529" at="52,86,63,23">
+        <var name="amount" id="7115659568980766182" />
+      </scope>
+      <scope id="7115659568980724527" at="52,0,65,0">
+        <var name="event" id="7115659568980724527" />
+      </scope>
+      <scope id="7115659568980678531" at="30,95,46,16" />
+      <scope id="7115659568980678531" at="29,0,48,0">
+        <var name="_params" id="7115659568980678531" />
+        <var name="event" id="7115659568980678531" />
+      </scope>
+      <unit id="7115659568980678531" at="17,0,66,0" name="DesignSpacePlugin.plugin.DoPushout_Action" />
+    </file>
+  </root>
+</debug-info>
+
