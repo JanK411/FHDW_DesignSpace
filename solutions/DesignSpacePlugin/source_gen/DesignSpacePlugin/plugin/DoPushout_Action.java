@@ -13,6 +13,13 @@ import org.jetbrains.annotations.NotNull;
 import javax.swing.JOptionPane;
 import org.jetbrains.mps.openapi.module.SDependency;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SLanguage;
+import org.jetbrains.mps.openapi.language.SAbstractConcept;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import java.util.ArrayList;
+import org.jetbrains.mps.openapi.language.SDataType;
+import org.jetbrains.mps.openapi.module.SModuleReference;
+import org.jetbrains.annotations.Nullable;
 
 public class DoPushout_Action extends BaseAction {
   private static final Icon ICON = null;
@@ -20,7 +27,7 @@ public class DoPushout_Action extends BaseAction {
   public DoPushout_Action() {
     super("DoPushout", "", ICON);
     this.setIsAlwaysVisible(true);
-    this.setExecuteOutsideCommand(false);
+    this.setExecuteOutsideCommand(true);
   }
   @Override
   public boolean isDumbAware() {
@@ -47,19 +54,65 @@ public class DoPushout_Action extends BaseAction {
   }
   @Override
   public void doExecute(@NotNull final AnActionEvent event, final Map<String, Object> _params) {
-    JOptionPane.showMessageDialog(null, DoPushout_Action.this.checkIfModuleHasTwoMatchingDependencies(event));
+    JOptionPane.showMessageDialog(null, "lelele");
+    event.getData(MPSCommonDataKeys.MPS_PROJECT).getRepository().getModelAccess().runWriteAction(new Runnable() {
+      public void run() {
+        DoPushout_Action.this.createLanguage(event);
+      }
+    });
   }
   private boolean checkIfModuleHasTwoMatchingDependencies(final AnActionEvent event) {
     int amount = 0;
     for (SDependency dependency : event.getData(MPSCommonDataKeys.MODULE).getDeclaredDependencies()) {
       SModule module = dependency.getTargetModule().resolve(event.getData(MPSCommonDataKeys.MPS_PROJECT).getRepository());
       if (module.getUsedLanguages().contains(MetaAdapterFactory.getLanguage(0x8bb65ad4dfaf4fcdL, 0x98f7a7c33f5b8ab8L, "AGLang"))) {
-
+        // irgendwie wohl nicht so einfach, die Konsole anzusprechen anscheinend 
         System.out.println(module.getModuleName() + " contains AGLang");
         amount++;
       }
-      JOptionPane.showMessageDialog(null, dependency.getTargetModule().getModuleName());
+      JOptionPane.showMessageDialog(null, dependency.getTargetModule().resolve(event.getData(MPSCommonDataKeys.MPS_PROJECT).getRepository()));
     }
     return amount == 2;
+  }
+  private void createLanguage(final AnActionEvent event) {
+    JOptionPane.showMessageDialog(null, "lalala");
+
+    SLanguage pushoutLang = new SLanguage() {
+      @NotNull
+      public String getQualifiedName() {
+        return event.getData(MPSCommonDataKeys.MODULE).getModuleName() + "Plus";
+      }
+      public Iterable<SAbstractConcept> getConcepts() {
+        return ListSequence.fromList(new ArrayList<SAbstractConcept>());
+      }
+      @NotNull
+      public Iterable<SDataType> getDatatypes() {
+        return ListSequence.fromList(new ArrayList<SDataType>());
+      }
+      public boolean isValid() {
+        return true;
+      }
+      public Iterable<SModuleReference> getLanguageRuntimes() {
+        return ListSequence.fromList(new ArrayList<SModuleReference>());
+      }
+      @Nullable
+      public SModule getSourceModule() {
+        return this.getSourceModule();
+      }
+      public SModuleReference getSourceModuleReference() {
+        return this.getSourceModuleReference();
+      }
+      @Deprecated
+      public int getLanguageVersion() {
+        return 5;
+      }
+    };
+    JOptionPane.showMessageDialog(null, "lululu");
+
+    JOptionPane.showMessageDialog(null, pushoutLang.getSourceModule());
+
+
+    event.getData(MPSCommonDataKeys.MPS_PROJECT).addModule(pushoutLang.getSourceModule());
+
   }
 }
