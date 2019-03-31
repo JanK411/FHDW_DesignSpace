@@ -50,6 +50,10 @@
     <dependency reexport="false">fddc7903-0020-4b2d-83fc-bce406222dce(Persons)</dependency>
   </dependencies>
   <languageVersions>
+    <language slang="l:8bb65ad4-dfaf-4fcd-98f7-a7c33f5b8ab8:AGLang" version="0" />
+    <language slang="l:0ad0ac64-8767-44c7-a168-afee7cf5c9a6:Families" version="0" />
+    <language slang="l:1f0bc51e-c42e-4fcf-9c75-cd7541f3ced8:ModelCorrispondenceDefinitionLang" version="0" />
+    <language slang="l:fddc7903-0020-4b2d-83fc-bce406222dce:Persons" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="8" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
